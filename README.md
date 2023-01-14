@@ -1,34 +1,36 @@
-# Data Minded Academy - Containerization with Docker
+# Data Minded Academy - dbt
 ## Exercises Repository
 
 [![Open in
 Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/datamindedacademy/academy_dbt.git)
 
 This repository is hosting the exercises provided to students in the context of the `Relational DataBases` course of the Data Minded Academy.
-This specific excersise is focused on dbt.
+This specific exercise is focused on dbt.
 
 To start click on "Open in Gitpod" button
 
-Once it is started, run the script ./create_profiles.sh which will generate connection
-with Snowflake DataWarehouse. DBT is already installed there, so everything
+Once it is started, run the script ```./create_profiles.sh``` which will generate connection
+with Snowflake Data Warehouse. DBT is already installed there, so everything
 is ready for you first dbt projects.
 
+### 1) Your first dbt project
+Enter the folder "my_first_dbt_project" explore the files in folders:
+- models
+- tests
+
+Try running the following commands:
+- dbt run
+- dbt test
+
+### 2) audience_measurement
 Enter the folder "audience_measurement" explore the files in folders:
 - models
 - tests
 
 
-Enter file:
-- dbt_profiles.yml
-
 Try running the following commands:
 - dbt run (See the views created at DWH)
 - dbt test
-
-
-Afterwards start your own dbt project by making a new folder and running
-inside it
-- dbt init
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
